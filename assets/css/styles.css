@@ -113,9 +113,10 @@ p2
     color: black;
     text-decoration:none;
     background-color:none;
+    margin-right: 10px;
     text-align: left;
     word-wrap:normal;
-    clear: both;
+    clear: left;
 } 
 
 
@@ -220,7 +221,8 @@ input[type=submit]:hover {
     margin-top: 15px;
     float: left;
     width: 25%;
-    padding: 5px;
+    padding: 20px;
+    margin-bottom: -20px;
   }
   
   /* Clear floats after image containers */
